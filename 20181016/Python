@@ -1,0 +1,17 @@
+root@kali:~# python~
+bash: python~: command not found
+root@kali:~# python3
+Python 3.6.4 (default, Jan  5 2018, 02:13:53) 
+[GCC 7.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> q = 259
+>>> p = 0.038
+>>> print(q, p, p * q)
+259 0.038 9.842
+>>> print(q, p, p * q, sep=",")
+259,0.038,9.842
+>>> print(q, p, p * q, sep=" =) ")
+259 =) 0.038 =) 9.842
+>>> print(str(q) + " " + str(p) + " " + str(p * q))
+259 0.038 9.842
+
