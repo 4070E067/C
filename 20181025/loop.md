@@ -1,0 +1,43 @@
+
+# C語言的3個loop:for / while /do while
+
+
+### 使用3種loop技術完成1+2+3+4+....+9+10
+
+[1]for loop
+```
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i,sum=0;
+   
+   for(i=1;i<=10;i++)			
+      sum+=i;
+      
+   printf("1+2+3+...+10=%d\n",sum);	
+   
+   system("pause");
+   return 0;
+}
+```
+
+[2]while loop
+```
+
+
+```
+[3]do while loop
+
+```
+
+
+```
+### 作業
+
+```
+[1]使用3種loop技術完成1+3+5+7+....+99
+[2]使用3種loop技術完成2+4+6+8+....+98
+
+```
