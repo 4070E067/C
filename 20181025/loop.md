@@ -26,7 +26,21 @@ int main(void)
 
 [2]while loop
 ```
-
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=0;
+   while(sum<4950)			
+   { 
+     sum+=i;
+	 i++;
+   }  
+   printf("1+3+5+7+...+399=%d\n",sum);	
+   
+   system("pause");
+   return 0;
+}
 
 ```
 [3]do while loop
